@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>User List</title>
+</head>
+    <body>
+        <div id = "wrapper">
+            <table id="idtable">
+                <tr id="topRow">
+                    <th class="thead">First Name</th>
+                    <th class="thead">Last Name</th>
+                    <th class="thead">Email Address</th>
+                    <th class="thead">Contact#</th>
+                </tr><!--closes topRow-->
+            </table><!--closes idtable-->
+            <div id="formDiv">
+                <h2>Add User</h2>
+                <form id="infos">
+                        First Name:<input class="inpt" id="first" value="n.a" type="text"><br>
+                        Last Name:<input class="inpt" id="last" value="n.a" type="text"><br>
+                        Email Address:<input class="inpt" id="email" value="n.a" type="text"><br>
+                        Contact #:<input class="inpt" id="numb" value="n.a" type="text"><br>
+                        <button id="submit">Submit</button>
+                </form>
+            </div><!--closes formDiv-->
+        </div><!--closes wrapper-->
+    </body>
+</html>

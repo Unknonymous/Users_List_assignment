@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1024px;
+    background-color: black;
+    margin: auto;
+    border: solid 1px red;
+}
+#wrapper{
+    background-color: darkslategrey;
+    border: solid 1px red;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#idtable{
+    width: 600px;
+    color: white;
+    border: solid 1px black;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+#formDiv{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    border: solid 1px red;
+}
+#infos{
+width: 300px;
+margin: auto;
+text-align: right;
+border-top: solid 2px grey;
+font-weight: bold;
+position: relative;
+right: 45px;
+}
+.inpt{
+    display: inline-block;
+    text-align: right;
+    margin-top: 5px;
+}
+h2{
+    margin-left: 10px;
+}
+#submit{
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    border: solid 1px red;
+    padding: 5px;
+    border-radius: 5px;
+}
+.thead{
+    border: solid 1px black;
+}
+.data{
+    border-bottom: solid 1px grey;
+    text-align: center;
+}
